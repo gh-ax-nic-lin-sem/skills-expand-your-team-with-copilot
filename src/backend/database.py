@@ -41,7 +41,8 @@ initial_activities = {
             "end_time": "16:45"
         },
         "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
+        "participants": ["michael@mergington.edu", "daniel@mergington.edu"],
+        "difficulty_level": "Beginner"
     },
     "Programming Class": {
         "description": "Learn programming fundamentals and build software projects",
@@ -52,7 +53,8 @@ initial_activities = {
             "end_time": "08:00"
         },
         "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "participants": ["emma@mergington.edu", "sophia@mergington.edu"],
+        "difficulty_level": "Intermediate"
     },
     "Morning Fitness": {
         "description": "Early morning physical training and exercises",
@@ -140,7 +142,8 @@ initial_activities = {
             "end_time": "14:00"
         },
         "max_participants": 15,
-        "participants": ["ethan@mergington.edu", "oliver@mergington.edu"]
+        "participants": ["ethan@mergington.edu", "oliver@mergington.edu"],
+        "difficulty_level": "Advanced"
     },
     "Science Olympiad": {
         "description": "Weekend science competition preparation for regional and state events",
@@ -151,7 +154,8 @@ initial_activities = {
             "end_time": "16:00"
         },
         "max_participants": 18,
-        "participants": ["isabella@mergington.edu", "lucas@mergington.edu"]
+        "participants": ["isabella@mergington.edu", "lucas@mergington.edu"],
+        "difficulty_level": "Advanced"
     },
     "Sunday Chess Tournament": {
         "description": "Weekly tournament for serious chess players with rankings",
@@ -162,7 +166,8 @@ initial_activities = {
             "end_time": "17:00"
         },
         "max_participants": 16,
-        "participants": ["william@mergington.edu", "jacob@mergington.edu"]
+        "participants": ["william@mergington.edu", "jacob@mergington.edu"],
+        "difficulty_level": "Intermediate"
     },
     "Manga Maniacs": {
         "description": "Dive into epic adventures, powerful friendships, and unforgettable heroes! Join fellow otaku to discuss your favorite manga series, from shonen action to slice-of-life stories. Whether you're team Shonen Jump or indie manga, all manga fans welcome!",
