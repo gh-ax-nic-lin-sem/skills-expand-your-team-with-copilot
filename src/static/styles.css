@@ -267,6 +267,92 @@ section h3 {
   align-items: center;
 }
 
+/* Share buttons */
+.share-buttons {
+  display: flex;
+  gap: 6px;
+  margin: 8px 0;
+  justify-content: flex-end;
+}
+
+.share-button {
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  padding: 4px 8px;
+  border-radius: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 28px;
+}
+
+.share-button:hover {
+  background-color: var(--primary-light);
+  border-color: var(--primary);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.share-button:active {
+  transform: translateY(0);
+}
+
+/* Share modal */
+.share-modal-content {
+  max-width: 400px;
+}
+
+.share-modal-content h3 {
+  color: var(--primary);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.share-modal-content p {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.share-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.share-option-button {
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.share-option-button:hover {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.share-option-button:active {
+  transform: translateY(0);
+}
+
 /* Buttons */
 .register-button {
   background: linear-gradient(145deg, var(--secondary), var(--secondary-dark));
